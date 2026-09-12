@@ -34,3 +34,9 @@ let removeSecondCanvas = setTimeout(function(){
 	secondCanvas.setAttribute("style","display:none");
 	thirdCanvas.setAttribute("style","display:block")
 },9800)
+// MUSIC
+let birthdaySong = document.getElementById("birthdaySong");
+
+document.addEventListener("click", function () {
+    birthdaySong.play();
+}, { once: true });
